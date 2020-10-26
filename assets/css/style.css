@@ -1,0 +1,142 @@
+/* Global Styles go here */
+body {
+  background: black;
+  font-family: 'Godzilla';
+  padding: 0;
+  margin: 0;
+}
+
+.container::-webkit-scrollbar{
+  display:none;
+}
+
+.container{
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+
+
+img {
+  width: 100%;
+}
+
+.imgheight{
+  height:100%;
+}
+
+.mo-image-container {
+  width: 100%;
+}
+
+
+h1{
+  color:white;
+  font-size:80px;
+  top: 40px;
+  left: 20px;
+  position: relative;
+  z-index: 100;
+}
+h2{
+  color:white;
+  font-size:80px;
+  top:40px;
+  left: 80px;
+}
+.fixed {
+  position: fixed;
+  font-size: 40px;
+  top: 0px;
+  left: 20px;
+  z-index: 100;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'Godzilla';
+  src: url(../fonts/Godzilla.ttf);
+  font-weight: bold;
+
+}
+
+@font-face {
+  font-family: 'AmcapEternal-xK95';
+  src: url(../fonts/AmcapEternal-xK95.ttf);
+  font-weight: bold;
+}
+p {
+  color:white;
+}
+
+.mo-menu-bar{
+  position:fixed;
+  top:25px;
+  right:20px;
+  width:8%;
+}
+
+.mo-menu-bar2{
+  position:fixed;
+  top:25px;
+  right:20px;
+  width:8%;
+    z-index: 100;
+}
+
+
+.godzilla{
+  width: 75%;
+  float: left;
+  position: fixed;
+  top: 0px;
+  right: 180px;
+  z-index: 10;
+}
+.rodan{
+  width: 30%;
+    float: left;
+    position: fixed;
+    top: 0;
+    right: 260px;
+}
+.muto{
+  width: 45%;
+  float: left;
+  position: fixed;
+  top: 80px;
+  left: 800px;
+}
+.mothra{
+  width: 70%;
+  float: left;
+  position: fixed;
+  top: -100px;
+  right: 80px;
+  z-index: 10;
+}
+.ghidorah{
+  width: 80%;
+  float: left;
+  position: fixed;
+  top: -100;
+  left: 100px;
+}
+
+.mo-bio-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 200px;
+}
+
+.mo-bio-text {
+  width: 50%;
+  float: left;
+  font-family: 'AmcapEternal-xK95';
+  font-size: 40px;
+  text-align: justify;
+  text-justify: inter-word;
+  z-index: 100;
+  left: 20px;
+  position: relative;
+}
