@@ -73,6 +73,7 @@ p {
   top:25px;
   right:20px;
   width:8%;
+  z-index: 200;
 }
 
 .mo-menu-bar2{
